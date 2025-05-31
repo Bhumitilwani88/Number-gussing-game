@@ -4,7 +4,6 @@
 # Language : python 3 
 
 
-
  # To generate a random number 
 import random 
 
@@ -31,7 +30,7 @@ while attempt < max_attempt :
 
     # check if the guess  is correct  
     if guess == secret_number:
-        print(" Congratulation!  you guess right it number ")
+        print(" Congratulation!  you guess right number ")
         break 
     elif guess < secret_number : 
         print(" Too low! Try again. ")
